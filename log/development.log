@@ -1,0 +1,369 @@
+
+
+Started GET "/" for 190.81.177.251 at 2015-06-01 20:38:50 +0000
+Processing by InicioController#index as HTML
+  Rendered inicio/index.html.erb within layouts/application (10.4ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (No route matches {:action=>"index", :controller=>"posts"}):
+    1: <h1>Hola Rails</h1>
+    2: <%= link_to "My Blog", :controller => "posts" %>
+  app/views/inicio/index.html.erb:2:in `_app_views_inicio_index_html_erb___1096504818524394424_70218487949840'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.1ms)
+
+
+Started GET "/" for 190.81.177.251 at 2015-06-01 20:39:04 +0000
+Processing by InicioController#index as HTML
+  Rendered inicio/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"index", :controller=>"posts"}):
+    1: <h1>Hola Rails</h1>
+    2: <%= link_to "My Blog", :controller => "posts" %>
+  app/views/inicio/index.html.erb:2:in `_app_views_inicio_index_html_erb___1096504818524394424_70218487949840'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.1ms)
+
+
+Started GET "/" for 190.81.177.251 at 2015-06-01 20:40:50 +0000
+Processing by InicioController#index as HTML
+  Rendered inicio/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 707ms (Views: 706.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 190.81.177.251 at 2015-06-01 20:40:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 190.81.177.251 at 2015-06-01 20:40:51 +0000
+
+
+Started GET "/assets/application.css?body=1" for 190.81.177.251 at 2015-06-01 20:40:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 190.81.177.251 at 2015-06-01 20:40:56 +0000
+
+
+Started GET "/assets/inicio.js?body=1" for 190.81.177.251 at 2015-06-01 20:40:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 190.81.177.251 at 2015-06-01 20:40:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 190.81.177.251 at 2015-06-01 20:40:56 +0000
+
+
+Started GET "/" for 190.81.177.251 at 2015-06-01 20:41:32 +0000
+Processing by InicioController#index as HTML
+  Rendered inicio/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 190.81.177.251 at 2015-06-01 20:41:32 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 190.81.177.251 at 2015-06-01 20:41:32 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 190.81.177.251 at 2015-06-01 20:41:32 +0000
+
+
+Started GET "/assets/application.css?body=1" for 190.81.177.251 at 2015-06-01 20:41:32 +0000
+
+
+Started GET "/assets/inicio.css?body=1" for 190.81.177.251 at 2015-06-01 20:41:32 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 190.81.177.251 at 2015-06-01 20:41:32 +0000
+
+
+Started GET "/assets/inicio.js?body=1" for 190.81.177.251 at 2015-06-01 20:41:32 +0000
+
+
+Started GET "/" for 190.81.177.251 at 2015-06-01 20:42:07 +0000
+Processing by InicioController#index as HTML
+  Rendered inicio/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 190.81.177.251 at 2015-06-01 20:42:08 +0000
+
+
+Started GET "/assets/inicio.js?body=1" for 190.81.177.251 at 2015-06-01 20:42:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 190.81.177.251 at 2015-06-01 20:42:08 +0000
+
+
+Started GET "/assets/application.css?body=1" for 190.81.177.251 at 2015-06-01 20:42:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 190.81.177.251 at 2015-06-01 20:42:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 190.81.177.251 at 2015-06-01 20:42:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 190.81.177.251 at 2015-06-01 20:42:08 +0000
+  [1m[36m (12.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (17.9ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateBlogs (20150601204343)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateBlogs (20150601204433)
+  [1m[35m (17.0ms)[0m  CREATE TABLE `blogs` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `about` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150601204433')
+  [1m[36m (8.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/" for 190.81.177.251 at 2015-06-01 20:47:50 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by InicioController#index as HTML
+  Rendered inicio/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 451ms (Views: 437.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 190.81.177.251 at 2015-06-01 20:47:51 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 190.81.177.251 at 2015-06-01 20:47:52 +0000
+
+
+Started GET "/assets/blogs.js?body=1" for 190.81.177.251 at 2015-06-01 20:47:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 190.81.177.251 at 2015-06-01 20:47:52 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 190.81.177.251 at 2015-06-01 20:47:52 +0000
+
+
+Started GET "/assets/inicio.css?body=1" for 190.81.177.251 at 2015-06-01 20:47:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 190.81.177.251 at 2015-06-01 20:47:52 +0000
+
+
+Started GET "/assets/application.css?body=1" for 190.81.177.251 at 2015-06-01 20:47:52 +0000
+
+
+Started GET "/assets/inicio.js?body=1" for 190.81.177.251 at 2015-06-01 20:47:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 190.81.177.251 at 2015-06-01 20:47:52 +0000
+
+
+Started GET "/blogs" for 190.81.177.251 at 2015-06-01 20:47:55 +0000
+Processing by BlogsController#index as HTML
+  [1m[35mBlog Load (0.4ms)[0m  SELECT `blogs`.* FROM `blogs`
+  Rendered blogs/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 73ms (Views: 68.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs" for 190.81.177.251 at 2015-06-01 20:49:04 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.3ms)[0m  [1mSELECT `blogs`.* FROM `blogs`[0m
+  Rendered blogs/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 119ms (Views: 117.4ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreatePosts (20150601205555)
+  [1m[35m (9.2ms)[0m  CREATE TABLE `posts` (`id` int(11) auto_increment PRIMARY KEY, `title` varchar(255), `content` varchar(255), `blog_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (14.8ms)[0m  [1mCREATE  INDEX `index_posts_on_blog_id`  ON `posts` (`blog_id`) [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (12.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150601205555')[0m
+  [1m[35m (4.5ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/posts" for 190.81.177.251 at 2015-06-01 21:04:19 +0000
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT `posts`.* FROM `posts`[0m
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 254ms (Views: 243.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/inicio.css?body=1" for 190.81.177.251 at 2015-06-01 21:04:20 +0000
+
+
+Started GET "/assets/inicio.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:20 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:20 +0000
+
+
+Started GET "/assets/application.css?body=1" for 190.81.177.251 at 2015-06-01 21:04:20 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 190.81.177.251 at 2015-06-01 21:04:20 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:20 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:20 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:20 +0000
+
+
+Started GET "/assets/blogs.css?body=1" for 190.81.177.251 at 2015-06-01 21:04:20 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 190.81.177.251 at 2015-06-01 21:04:20 +0000
+
+
+Started GET "/assets/blogs.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:20 +0000
+
+
+Started GET "/blogs" for 190.81.177.251 at 2015-06-01 21:04:50 +0000
+Processing by BlogsController#index as HTML
+  [1m[35mBlog Load (0.3ms)[0m  SELECT `blogs`.* FROM `blogs`
+  Rendered blogs/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 107ms (Views: 93.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 190.81.177.251 at 2015-06-01 21:04:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:50 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 190.81.177.251 at 2015-06-01 21:04:50 +0000
+
+
+Started GET "/assets/inicio.css?body=1" for 190.81.177.251 at 2015-06-01 21:04:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 190.81.177.251 at 2015-06-01 21:04:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:50 +0000
+
+
+Started GET "/assets/blogs.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:50 +0000
+
+
+Started GET "/assets/inicio.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:50 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 190.81.177.251 at 2015-06-01 21:04:50 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 190.81.177.251 at 2015-06-01 21:04:50 +0000
+
+
+Started GET "/blogs/new" for 190.81.177.251 at 2015-06-01 21:04:54 +0000
+Processing by BlogsController#new as HTML
+  Rendered blogs/_form.html.erb (38.3ms)
+  Rendered blogs/new.html.erb within layouts/application (47.6ms)
+Completed 200 OK in 142ms (Views: 137.1ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/blogs" for 190.81.177.251 at 2015-06-01 21:05:06 +0000
+Processing by BlogsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P6ykvCM44J31ylw0KhFInSOTW8SdwlBqLfL5O9I9/Pc=", "blog"=>{"name"=>"blog 1", "about"=>"sobre blog1"}, "commit"=>"Create Blog"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `blogs` (`about`, `created_at`, `name`, `updated_at`) VALUES ('sobre blog1', '2015-06-01 21:05:06', 'blog 1', '2015-06-01 21:05:06')
+  [1m[36m (7.5ms)[0m  [1mCOMMIT[0m
+Redirected to https://myweb-cmirandav.c9.io/blogs/1
+Completed 302 Found in 14ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/blogs/1" for 190.81.177.251 at 2015-06-01 21:05:06 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBlog Load (0.4ms)[0m  SELECT  `blogs`.* FROM `blogs`  WHERE `blogs`.`id` = 1 LIMIT 1
+  Rendered blogs/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 74ms (Views: 70.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/blogs.css?body=1" for 190.81.177.251 at 2015-06-01 21:05:06 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 190.81.177.251 at 2015-06-01 21:05:06 +0000
+
+
+Started GET "/assets/application.css?body=1" for 190.81.177.251 at 2015-06-01 21:05:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 190.81.177.251 at 2015-06-01 21:05:06 +0000
+
+
+Started GET "/assets/inicio.css?body=1" for 190.81.177.251 at 2015-06-01 21:05:06 +0000
+
+
+Started GET "/assets/scaffolds.css?body=1" for 190.81.177.251 at 2015-06-01 21:05:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 190.81.177.251 at 2015-06-01 21:05:07 +0000
+
+
+Started GET "/assets/inicio.js?body=1" for 190.81.177.251 at 2015-06-01 21:05:07 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 190.81.177.251 at 2015-06-01 21:05:07 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 190.81.177.251 at 2015-06-01 21:05:07 +0000
+
+
+Started GET "/assets/blogs.js?body=1" for 190.81.177.251 at 2015-06-01 21:05:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 190.81.177.251 at 2015-06-01 21:05:07 +0000
+
+
+Started GET "/blogs" for 190.81.177.251 at 2015-06-01 21:05:13 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.3ms)[0m  [1mSELECT `blogs`.* FROM `blogs`[0m
+  Rendered blogs/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blogs/1" for 190.81.177.251 at 2015-06-01 21:05:15 +0000
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBlog Load (0.3ms)[0m  SELECT  `blogs`.* FROM `blogs`  WHERE `blogs`.`id` = 1 LIMIT 1
+  Rendered blogs/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 77ms (Views: 75.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blogs" for 190.81.177.251 at 2015-06-01 21:05:17 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.3ms)[0m  [1mSELECT `blogs`.* FROM `blogs`[0m
+  Rendered blogs/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 95ms (Views: 94.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blogs/1/edit" for 190.81.177.251 at 2015-06-01 21:05:19 +0000
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBlog Load (0.4ms)[0m  SELECT  `blogs`.* FROM `blogs`  WHERE `blogs`.`id` = 1 LIMIT 1
+  Rendered blogs/_form.html.erb (2.1ms)
+  Rendered blogs/edit.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 92ms (Views: 89.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs" for 190.81.177.251 at 2015-06-01 21:05:21 +0000
+Processing by BlogsController#index as HTML
+  [1m[36mBlog Load (0.3ms)[0m  [1mSELECT `blogs`.* FROM `blogs`[0m
+  Rendered blogs/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 81ms (Views: 79.8ms | ActiveRecord: 0.3ms)
